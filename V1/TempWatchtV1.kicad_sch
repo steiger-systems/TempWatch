@@ -1,0 +1,983 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4c1bfa05-abb8-4df8-8068-6e21b383df39")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Beschriftungen\n2-Layer PCB\nKleiner\nMounting Holes aufpassen wegen dem aufkratzen keine tracks daneben\n"
+		(exclude_from_sim no)
+		(at 235.204 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "453b1e7e-50bc-4040-a2a8-3ff31ad04c86")
+	)
+	(wire
+		(pts
+			(xy 149.86 68.58) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b12484-999f-4a2e-812a-c7f57955c04d")
+	)
+	(wire
+		(pts
+			(xy 115.57 83.82) (xy 125.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec48f71-7574-4985-ac5e-9bfe4049d7b4")
+	)
+	(wire
+		(pts
+			(xy 160.02 106.68) (xy 115.57 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d2021e-e28b-4f56-bfa8-9b6466a36e89")
+	)
+	(wire
+		(pts
+			(xy 115.57 116.84) (xy 160.02 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f10c56-72c4-4142-93c3-09a32c7dd91e")
+	)
+	(wire
+		(pts
+			(xy 115.57 76.2) (xy 125.73 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a145d13-7253-4273-9ceb-f7000b9c482d")
+	)
+	(wire
+		(pts
+			(xy 115.57 111.76) (xy 160.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948d5c18-bc0f-4156-a152-5b80aeb136bb")
+	)
+	(wire
+		(pts
+			(xy 115.57 73.66) (xy 125.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e9b720-7398-4784-9b0b-19dcfc5cc810")
+	)
+	(wire
+		(pts
+			(xy 115.57 124.46) (xy 160.02 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d662dd-7892-4a62-9e61-bfab42f6bbd0")
+	)
+	(wire
+		(pts
+			(xy 115.57 78.74) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ac612e-146a-487a-965f-2d172d618c38")
+	)
+	(wire
+		(pts
+			(xy 115.57 81.28) (xy 125.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be209cfb-9b22-4b7f-93cd-771c9cd00ba8")
+	)
+	(wire
+		(pts
+			(xy 115.57 121.92) (xy 160.02 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb729304-9476-40a9-96de-4b8a7b52f0a7")
+	)
+	(wire
+		(pts
+			(xy 115.57 114.3) (xy 160.02 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d213cbcd-12d4-4687-8785-2828fca596e6")
+	)
+	(wire
+		(pts
+			(xy 160.02 109.22) (xy 115.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8806e0b-e7ac-4438-83ef-8a732eb1e482")
+	)
+	(wire
+		(pts
+			(xy 115.57 119.38) (xy 160.02 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd091393-57a2-4541-8ec4-16b2bf4d2d95")
+	)
+	(wire
+		(pts
+			(xy 149.86 66.04) (xy 160.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda35040-42fb-46cc-afb5-581a3d4c1568")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 83.82 173.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "314f9621-bf51-42ec-8c14-94e12d22967c")
+		(property "Reference" "H602"
+			(at 86.36 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 86.36 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TempWatchtV1"
+				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39"
+					(reference "H602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 83.82 168.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37b1dbab-7e1d-4bd1-a53d-71dca089793b")
+		(property "Reference" "H601"
+			(at 86.36 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 86.36 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 83.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 83.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TempWatchtV1"
+				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39"
+					(reference "H601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 83.82 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "568c865d-169c-4479-aea2-8643781beeb0")
+		(property "Reference" "H604"
+			(at 86.36 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 86.36 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 83.82 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 83.82 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TempWatchtV1"
+				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39"
+					(reference "H604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 83.82 179.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bee93937-ea3d-486a-b6be-95c05fea1856")
+		(property "Reference" "H603"
+			(at 86.36 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 86.36 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TempWatchtV1"
+				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39"
+					(reference "H603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 59.055)
+		(size 13.97 86.995)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2df40501-ba84-4e48-9282-88dadc69cdf7")
+		(property "Sheetname" "Connector"
+			(at 160.02 58.3434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connector.kicad_sch"
+			(at 160.02 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_L" input
+			(at 160.02 68.58 180)
+			(uuid "a4ead36f-1424-4333-92d4-f65b4f6d82ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_H" input
+			(at 160.02 66.04 180)
+			(uuid "71e1570a-41d3-4e18-b063-b36694a4c635")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Temp2" output
+			(at 160.02 109.22 180)
+			(uuid "2b3465a3-82cd-48b9-85c1-ac541f1d6e58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Temp1" output
+			(at 160.02 106.68 180)
+			(uuid "401d4aaa-dd01-4da2-8644-d652897b7b97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Temp7" output
+			(at 160.02 121.92 180)
+			(uuid "c8aee37d-da03-42eb-bcda-ed66199d0bcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Temp3" output
+			(at 160.02 111.76 180)
+			(uuid "c46fa794-35f2-4bed-9935-7b0b38e74501")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Temp6" output
+			(at 160.02 119.38 180)
+			(uuid "3fbc0970-4faf-41c6-8cc9-25bcfaeb9f4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Temp5" output
+			(at 160.02 116.84 180)
+			(uuid "7407d04d-9aaa-4c1d-8ff5-31f12bab0911")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Temp4" output
+			(at 160.02 114.3 180)
+			(uuid "cb07632b-0aad-46d7-8aa3-3b3da0e2c489")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Temp8" output
+			(at 160.02 124.46 180)
+			(uuid "eda9bde9-370a-4f6a-a037-be19058a9814")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TempWatchtV1"
+				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 59.055)
+		(size 24.13 45.085)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49458525-2639-4322-b3b9-f86773cdc881")
+		(property "Sheetname" "CAN"
+			(at 125.73 58.3434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 128.778 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANH" input
+			(at 149.86 66.04 0)
+			(uuid "8b6e8fa9-a6de-4ce2-be14-d3b2154b90c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CANL" input
+			(at 149.86 68.58 0)
+			(uuid "6b0a35e7-acea-490e-aa1e-3c7bd59ad925")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_IN" input
+			(at 125.73 76.2 180)
+			(uuid "fdcfde89-bef3-499d-936b-3b3f92320de9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 125.73 83.82 180)
+			(uuid "f32693b2-7131-45cc-b55b-751913751ca3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_CS" input
+			(at 125.73 73.66 180)
+			(uuid "f9a807f1-d0c2-4306-b82b-7ad865df6ab9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 125.73 78.74 180)
+			(uuid "0adb97ec-d348-48b2-a042-7b71be335c1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" input
+			(at 125.73 81.28 180)
+			(uuid "3c11e82a-c5c4-4ddd-8bf0-60c14e12cc83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TempWatchtV1"
+				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.885 32.385)
+		(size 21.59 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb2e21b6-7c14-43d5-8f99-cbfcf41a4b01")
+		(property "Sheetname" "Supply"
+			(at 222.885 31.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Supply.kicad_sch"
+			(at 222.885 55.8296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TempWatchtV1"
+				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 89.662 59.055)
+		(size 25.908 86.868)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9af16c6-ce5d-42f1-ae7c-f02bb25b5900")
+		(property "Sheetname" "esp32S3"
+			(at 89.662 58.3434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32S3.kicad_sch"
+			(at 89.662 146.5076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOSI" input
+			(at 115.57 78.74 0)
+			(uuid "be82fc1e-ea90-4c75-9793-64f750e8f717")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" input
+			(at 115.57 81.28 0)
+			(uuid "e7c44984-12ba-4b51-8c5f-cf31a85fba9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 115.57 83.82 0)
+			(uuid "54b5d5bf-943c-4db6-88e9-585e186936db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_IN" input
+			(at 115.57 76.2 0)
+			(uuid "3b7706d3-a228-4518-bd44-f1f9c8e4b16f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_CS" input
+			(at 115.57 73.66 0)
+			(uuid "e730bf1d-8b8e-42c7-a25b-9708db6aaf84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temp4" input
+			(at 115.57 114.3 0)
+			(uuid "b2820ed0-5c1e-47fb-b25a-3c43dbe6c9dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temp8" input
+			(at 115.57 124.46 0)
+			(uuid "e2dfc2de-6b08-489f-a755-93845aaa7f93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temp6" input
+			(at 115.57 119.38 0)
+			(uuid "f8350019-017f-41de-a70d-d4ec9d6a3931")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temp1" input
+			(at 115.57 106.68 0)
+			(uuid "5033397c-1485-4946-9cdf-5de5585d7b79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temp5" input
+			(at 115.57 116.84 0)
+			(uuid "fc36b4a6-a300-4baa-947f-110809bbe409")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temp3" input
+			(at 115.57 111.76 0)
+			(uuid "ddcb9999-9586-4383-9000-cd09e451bc3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temp2" input
+			(at 115.57 109.22 0)
+			(uuid "7fc3b66a-5c13-41ab-9bd3-f6e5d0badf9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temp7" input
+			(at 115.57 121.92 0)
+			(uuid "3c43d6af-b7bc-492c-9d63-52b7b0269229")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TempWatchtV1"
+				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
