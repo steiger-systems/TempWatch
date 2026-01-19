@@ -1432,28 +1432,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:ESP32-S3-WROOM-1(N8R2)"
+		(symbol "easyeda2kicad:ESP32-S3-WROOM-1U-N8R2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 20.32 0)
+				(at 0 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "ESP32-S3-WROOM-1(N8R2)"
-				(at 0 -40.64 0)
+			(property "Value" "ESP32-S3-WROOM-1U-N8R2"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:WIRELM-SMD_ESP32-S3-WROOM-1"
-				(at 0 -43.18 0)
+			(property "Footprint" "easyeda2kicad:WIRELM-SMD_ESP32-S3-WROOM-1U"
+				(at 0 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1479,8 +1479,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C2913204"
-				(at 0 -45.72 0)
+			(property "LCSC Part" "C3013944"
+				(at 0 -35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1488,10 +1488,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESP32-S3-WROOM-1(N8R2)_0_1"
+			(symbol "ESP32-S3-WROOM-1U-N8R2_0_1"
 				(rectangle
-					(start -20.32 36.83)
-					(end 17.78 -33.02)
+					(start -8.89 27.94)
+					(end 8.89 -27.94)
 					(stroke
 						(width 0)
 						(type default)
@@ -1501,7 +1501,7 @@
 					)
 				)
 				(circle
-					(center -19.05 15.24)
+					(center -7.62 26.67)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -1512,7 +1512,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 10.16 0)
+					(at -11.43 25.4 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1530,7 +1530,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 7.62 0)
+					(at -11.43 22.86 0)
 					(length 2.54)
 					(name "3V3"
 						(effects
@@ -1548,7 +1548,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 5.08 0)
+					(at -11.43 20.32 0)
 					(length 2.54)
 					(name "EN"
 						(effects
@@ -1566,7 +1566,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 2.54 0)
+					(at -11.43 17.78 0)
 					(length 2.54)
 					(name "IO4"
 						(effects
@@ -1584,7 +1584,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 0 0)
+					(at -11.43 15.24 0)
 					(length 2.54)
 					(name "IO5"
 						(effects
@@ -1602,7 +1602,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 -2.54 0)
+					(at -11.43 12.7 0)
 					(length 2.54)
 					(name "IO6"
 						(effects
@@ -1620,7 +1620,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 -5.08 0)
+					(at -11.43 10.16 0)
 					(length 2.54)
 					(name "IO7"
 						(effects
@@ -1638,7 +1638,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 -7.62 0)
+					(at -11.43 7.62 0)
 					(length 2.54)
 					(name "IO15"
 						(effects
@@ -1656,7 +1656,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 -10.16 0)
+					(at -11.43 5.08 0)
 					(length 2.54)
 					(name "IO16"
 						(effects
@@ -1674,7 +1674,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 -12.7 0)
+					(at -11.43 2.54 0)
 					(length 2.54)
 					(name "IO17"
 						(effects
@@ -1692,7 +1692,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 -15.24 0)
+					(at -11.43 0 0)
 					(length 2.54)
 					(name "IO18"
 						(effects
@@ -1710,7 +1710,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 -17.78 0)
+					(at -11.43 -2.54 0)
 					(length 2.54)
 					(name "IO8"
 						(effects
@@ -1728,7 +1728,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 -20.32 0)
+					(at -11.43 -5.08 0)
 					(length 2.54)
 					(name "IO19"
 						(effects
@@ -1746,7 +1746,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -22.86 -22.86 0)
+					(at -11.43 -7.62 0)
 					(length 2.54)
 					(name "IO20"
 						(effects
@@ -1764,7 +1764,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -15.24 -35.56 90)
+					(at -11.43 -10.16 0)
 					(length 2.54)
 					(name "IO3"
 						(effects
@@ -1782,7 +1782,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -12.7 -35.56 90)
+					(at -11.43 -12.7 0)
 					(length 2.54)
 					(name "IO46"
 						(effects
@@ -1800,7 +1800,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 -35.56 90)
+					(at -11.43 -15.24 0)
 					(length 2.54)
 					(name "IO9"
 						(effects
@@ -1818,7 +1818,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -7.62 -35.56 90)
+					(at -11.43 -17.78 0)
 					(length 2.54)
 					(name "IO10"
 						(effects
@@ -1836,7 +1836,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 -35.56 90)
+					(at -11.43 -20.32 0)
 					(length 2.54)
 					(name "IO11"
 						(effects
@@ -1854,7 +1854,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -2.54 -35.56 90)
+					(at -11.43 -22.86 0)
 					(length 2.54)
 					(name "IO12"
 						(effects
@@ -1872,7 +1872,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -35.56 90)
+					(at -11.43 -25.4 0)
 					(length 2.54)
 					(name "IO13"
 						(effects
@@ -1890,97 +1890,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 2.54 -35.56 90)
-					(length 2.54)
-					(name "IO14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -35.56 90)
-					(length 2.54)
-					(name "IO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -35.56 90)
-					(length 2.54)
-					(name "IO47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -35.56 90)
-					(length 2.54)
-					(name "IO48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 -35.56 90)
-					(length 2.54)
-					(name "IO45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 15.24 180)
+					(at 11.43 24.13 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1998,7 +1908,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 10.16 180)
+					(at 11.43 21.59 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2016,7 +1926,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 7.62 180)
+					(at 11.43 19.05 180)
 					(length 2.54)
 					(name "IO1"
 						(effects
@@ -2034,7 +1944,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 5.08 180)
+					(at 11.43 16.51 180)
 					(length 2.54)
 					(name "IO2"
 						(effects
@@ -2052,7 +1962,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 2.54 180)
+					(at 11.43 13.97 180)
 					(length 2.54)
 					(name "TXD0"
 						(effects
@@ -2070,7 +1980,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 0 180)
+					(at 11.43 11.43 180)
 					(length 2.54)
 					(name "RXD0"
 						(effects
@@ -2088,7 +1998,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -2.54 180)
+					(at 11.43 8.89 180)
 					(length 2.54)
 					(name "IO42"
 						(effects
@@ -2106,7 +2016,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -5.08 180)
+					(at 11.43 6.35 180)
 					(length 2.54)
 					(name "IO41"
 						(effects
@@ -2124,7 +2034,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -7.62 180)
+					(at 11.43 3.81 180)
 					(length 2.54)
 					(name "IO40"
 						(effects
@@ -2142,7 +2052,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -10.16 180)
+					(at 11.43 1.27 180)
 					(length 2.54)
 					(name "IO39"
 						(effects
@@ -2160,7 +2070,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -12.7 180)
+					(at 11.43 -1.27 180)
 					(length 2.54)
 					(name "IO38"
 						(effects
@@ -2178,7 +2088,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -15.24 180)
+					(at 11.43 -3.81 180)
 					(length 2.54)
 					(name "IO37"
 						(effects
@@ -2196,7 +2106,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -17.78 180)
+					(at 11.43 -6.35 180)
 					(length 2.54)
 					(name "IO36"
 						(effects
@@ -2214,7 +2124,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -20.32 180)
+					(at 11.43 -8.89 180)
 					(length 2.54)
 					(name "IO35"
 						(effects
@@ -2232,7 +2142,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -22.86 180)
+					(at 11.43 -11.43 180)
 					(length 2.54)
 					(name "IO0"
 						(effects
@@ -2242,6 +2152,96 @@
 						)
 					)
 					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -13.97 180)
+					(length 2.54)
+					(name "IO45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -16.51 180)
+					(length 2.54)
+					(name "IO48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -19.05 180)
+					(length 2.54)
+					(name "IO47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -21.59 180)
+					(length 2.54)
+					(name "IO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -24.13 180)
+					(length 2.54)
+					(name "IO14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3875,16 +3875,10 @@
 		(uuid "80eb9982-ce6f-4a60-994b-96166be589b5")
 	)
 	(junction
-		(at 156.21 48.26)
+		(at 135.89 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0565d231-aeba-4ed0-8051-7d4f568bcd30")
-	)
-	(junction
-		(at 156.21 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06e0bff8-bd96-4e89-9833-3da762e2dce3")
 	)
 	(junction
 		(at 73.66 53.34)
@@ -3927,6 +3921,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "448109c7-bfdb-48e4-9aaf-93ed19da1768")
+	)
+	(junction
+		(at 135.89 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49cdccab-4fe5-4f9f-90f8-a87b7001dc12")
 	)
 	(junction
 		(at 133.35 146.05)
@@ -4025,7 +4025,15 @@
 		(uuid "fb22d8da-9f54-4554-b65b-fa7a969954f7")
 	)
 	(no_connect
-		(at 154.94 71.12)
+		(at 134.62 87.63)
+		(uuid "00667a72-bed1-44e9-8fff-185c90a0e087")
+	)
+	(no_connect
+		(at 111.76 91.44)
+		(uuid "0863af74-ce6b-418e-868d-43587d5eb231")
+	)
+	(no_connect
+		(at 134.62 74.93)
 		(uuid "08cfc2d0-fddc-425e-9601-5fa2132b386c")
 	)
 	(no_connect
@@ -4037,23 +4045,15 @@
 		(uuid "0fb5826b-a50b-41a5-8487-0f481e1e7766")
 	)
 	(no_connect
-		(at 132.08 93.98)
-		(uuid "1106edfd-0127-447e-9b8a-6c1eee0a84ae")
-	)
-	(no_connect
-		(at 139.7 93.98)
-		(uuid "16143d70-f928-4166-bbc9-536d90d0e00a")
-	)
-	(no_connect
 		(at 82.55 138.43)
 		(uuid "18a6a395-841a-4dc9-ad75-a3d6961b8ef7")
 	)
 	(no_connect
-		(at 121.92 93.98)
-		(uuid "26314e70-e336-455c-bedb-4625c9ad4cb3")
+		(at 111.76 93.98)
+		(uuid "258b574b-517e-450a-b5d3-60156725972e")
 	)
 	(no_connect
-		(at 154.94 63.5)
+		(at 134.62 67.31)
 		(uuid "26458808-9b11-45f7-b861-42a0cd031d9f")
 	)
 	(no_connect
@@ -4061,8 +4061,16 @@
 		(uuid "2a20d7e4-460a-4e3c-a15e-6f794dc0e08c")
 	)
 	(no_connect
-		(at 154.94 68.58)
+		(at 134.62 97.79)
+		(uuid "35ec3247-0703-4b9e-ba82-938b465802e9")
+	)
+	(no_connect
+		(at 134.62 72.39)
 		(uuid "389a52b2-6c97-4ce3-9d16-fdd85a3a1ed5")
+	)
+	(no_connect
+		(at 111.76 88.9)
+		(uuid "3a26bc4d-2452-4da4-85fd-86cc5f6899f3")
 	)
 	(no_connect
 		(at 50.8 158.75)
@@ -4085,16 +4093,16 @@
 		(uuid "45830bed-d81e-4153-a046-e3950fdfca7e")
 	)
 	(no_connect
+		(at 111.76 86.36)
+		(uuid "475e2b56-931b-4544-8c7b-f875dde55153")
+	)
+	(no_connect
 		(at 82.55 156.21)
 		(uuid "4db0618d-ca47-48c0-a63a-569cb56da908")
 	)
 	(no_connect
 		(at 120.65 138.43)
 		(uuid "4f88b25d-87a3-475c-8f79-60cd399c566b")
-	)
-	(no_connect
-		(at 142.24 93.98)
-		(uuid "5b41b523-b4a3-4210-ab23-a005d831bd40")
 	)
 	(no_connect
 		(at 82.55 135.89)
@@ -4105,60 +4113,44 @@
 		(uuid "60fe7484-b667-454a-8999-c159124faf45")
 	)
 	(no_connect
-		(at 154.94 78.74)
+		(at 134.62 82.55)
 		(uuid "64447ff6-6d39-4d84-bea6-ac016a12f7e6")
+	)
+	(no_connect
+		(at 134.62 90.17)
+		(uuid "6494ca80-9b4e-4f54-9d92-ca550e60b355")
 	)
 	(no_connect
 		(at 44.45 130.81)
 		(uuid "6eb6419a-da76-44a7-9cfe-85d4d56440eb")
 	)
 	(no_connect
+		(at 134.62 92.71)
+		(uuid "71131908-24c8-4f64-a0d8-485867dd54db")
+	)
+	(no_connect
 		(at 50.8 168.91)
 		(uuid "7954fe9f-f40b-463c-94ae-a768d810772a")
 	)
 	(no_connect
-		(at 127 93.98)
-		(uuid "8740c3ed-3144-49c1-a2bf-539366f83643")
+		(at 111.76 99.06)
+		(uuid "82f027fc-ed12-456f-9603-2cc50cd46f14")
 	)
 	(no_connect
-		(at 154.94 66.04)
+		(at 134.62 69.85)
 		(uuid "893032ed-b9dc-4971-be1d-9947a8563116")
-	)
-	(no_connect
-		(at 134.62 93.98)
-		(uuid "8f3649f7-4886-4d98-a8c0-0219aaf72a20")
-	)
-	(no_connect
-		(at 129.54 93.98)
-		(uuid "94958793-e931-4ff1-84df-445cb8707a83")
 	)
 	(no_connect
 		(at 120.65 158.75)
 		(uuid "a74c87f7-9f31-4fa6-8dce-c12fcfec58c1")
 	)
 	(no_connect
-		(at 147.32 93.98)
-		(uuid "ae351857-943a-4e51-ba5f-3790c6ea8d4a")
-	)
-	(no_connect
 		(at 82.55 161.29)
 		(uuid "bbde3d76-556a-4b15-a63d-34dda2d9aeab")
 	)
 	(no_connect
-		(at 137.16 93.98)
-		(uuid "c3d47f25-db62-4055-b3eb-f32b9e2b4f67")
-	)
-	(no_connect
-		(at 124.46 93.98)
-		(uuid "c47fae33-2d75-4389-a400-1e5e94e60e89")
-	)
-	(no_connect
 		(at 82.55 158.75)
 		(uuid "c6243bc2-2fa0-453d-9ff2-3ba086951ee3")
-	)
-	(no_connect
-		(at 144.78 93.98)
-		(uuid "c625e005-4e38-4626-8f79-6c68756ece2a")
 	)
 	(no_connect
 		(at 120.65 161.29)
@@ -4177,20 +4169,28 @@
 		(uuid "ca3ac51f-d8c2-435b-8a47-edc201ecb8d9")
 	)
 	(no_connect
-		(at 119.38 93.98)
-		(uuid "cb440fb5-4829-47e3-8119-a61ee098a2e4")
+		(at 111.76 83.82)
+		(uuid "cc70eceb-a309-4a04-a561-e0785863762c")
 	)
 	(no_connect
-		(at 154.94 53.34)
+		(at 111.76 96.52)
+		(uuid "cd619b99-f0ed-413b-8daa-cb2be98f1ab0")
+	)
+	(no_connect
+		(at 134.62 57.15)
 		(uuid "d170286c-5df6-4518-a4e5-bd350d724311")
 	)
 	(no_connect
-		(at 154.94 50.8)
+		(at 134.62 54.61)
 		(uuid "f1728956-89cd-4352-aca8-2fb3a2757fc2")
 	)
 	(no_connect
-		(at 154.94 60.96)
+		(at 134.62 64.77)
 		(uuid "f99e67cf-121d-4f41-a730-6fc25f9ee677")
+	)
+	(no_connect
+		(at 134.62 95.25)
+		(uuid "fba488ab-b056-4627-8bba-fec2145a4f59")
 	)
 	(wire
 		(pts
@@ -4211,16 +4211,6 @@
 			(type default)
 		)
 		(uuid "0bc0cd1a-406d-40dc-a9ef-578835ff6136")
-	)
-	(wire
-		(pts
-			(xy 156.21 20.32) (xy 111.76 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ee6b3df-10d3-47dc-91d7-03f00f726c04")
 	)
 	(wire
 		(pts
@@ -4284,16 +4274,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 20.32) (xy 111.76 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1efbb2cd-760e-452e-b999-a89e6d676a31")
-	)
-	(wire
-		(pts
 			(xy 25.4 27.94) (xy 25.4 38.1)
 		)
 		(stroke
@@ -4314,7 +4294,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 157.48 73.66)
+			(xy 134.62 77.47) (xy 137.16 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4434,7 +4414,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 48.26) (xy 156.21 43.18)
+			(xy 135.89 52.07) (xy 135.89 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4454,7 +4434,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 48.26) (xy 158.75 48.26)
+			(xy 135.89 52.07) (xy 138.43 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4584,6 +4564,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 49.53) (xy 135.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6253aafa-9c90-46bb-a4cb-c7b6df417a70")
+	)
+	(wire
+		(pts
 			(xy 50.8 153.67) (xy 54.61 153.67)
 		)
 		(stroke
@@ -4591,16 +4581,6 @@
 			(type default)
 		)
 		(uuid "62fecffd-fa5d-4490-8063-21c73ee149bc")
-	)
-	(wire
-		(pts
-			(xy 156.21 20.32) (xy 156.21 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64ef0f49-d840-4f31-aa4d-19ef9b9943ba")
 	)
 	(wire
 		(pts
@@ -4644,7 +4624,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 48.26) (xy 156.21 48.26)
+			(xy 134.62 52.07) (xy 135.89 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4724,6 +4704,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 40.64) (xy 111.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84dd17eb-2836-4f2b-a847-5feaa1b8b4f6")
+	)
+	(wire
+		(pts
 			(xy 73.66 53.34) (xy 111.76 53.34)
 		)
 		(stroke
@@ -4744,7 +4734,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 76.2) (xy 157.48 76.2)
+			(xy 134.62 80.01) (xy 137.16 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4794,7 +4784,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 161.29 81.28)
+			(xy 134.62 85.09) (xy 140.97 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4864,7 +4854,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 55.88) (xy 165.1 55.88)
+			(xy 134.62 59.69) (xy 144.78 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5004,7 +4994,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 43.18) (xy 154.94 43.18)
+			(xy 135.89 49.53) (xy 134.62 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5074,7 +5064,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 58.42) (xy 165.1 58.42)
+			(xy 134.62 62.23) (xy 144.78 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5201,6 +5191,16 @@
 			(type default)
 		)
 		(uuid "e3e44c22-61fd-47d6-9513-63fc2360efcb")
+	)
+	(wire
+		(pts
+			(xy 135.89 40.64) (xy 111.76 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d186a1-750c-4eb1-b864-df1b5502a2ca")
 	)
 	(wire
 		(pts
@@ -5403,7 +5403,7 @@
 		(uuid "28881557-2715-4106-8b7f-276bbb45c14e")
 	)
 	(label "TX"
-		(at 165.1 55.88 0)
+		(at 144.78 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5413,7 +5413,7 @@
 		(uuid "417bbd4e-4f3b-42af-aa58-81436233d523")
 	)
 	(label "RX"
-		(at 165.1 58.42 0)
+		(at 144.78 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5453,7 +5453,7 @@
 		(uuid "71e2ba0f-57a4-4c81-a535-991248385482")
 	)
 	(label "BOOT"
-		(at 156.21 81.28 0)
+		(at 135.89 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5484,7 +5484,7 @@
 	)
 	(hierarchical_label "CAN_CS"
 		(shape input)
-		(at 157.48 76.2 0)
+		(at 137.16 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5572,7 +5572,7 @@
 	)
 	(hierarchical_label "CAN_IN"
 		(shape input)
-		(at 157.48 73.66 0)
+		(at 137.16 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5683,6 +5683,12 @@
 			(uuid "0cd5392a-3961-455a-bc7e-b59f0b291fa8")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0305")
@@ -5749,6 +5755,12 @@
 			(uuid "2c88ac00-d8aa-4878-801e-e5e88dd65620")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0316")
@@ -5815,6 +5827,12 @@
 			(uuid "0bb4b63a-eac9-42fe-9611-629db89ef2b5")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0301")
@@ -5881,6 +5899,12 @@
 			(uuid "69053c57-5e5c-4406-85d2-fcd57f23e1bd")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0310")
@@ -5946,6 +5970,12 @@
 			(uuid "e773eec0-467c-4ef3-8be1-aefd29d7d572")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0311")
@@ -6065,6 +6095,12 @@
 			(uuid "9bb01545-7633-4209-bc1e-d914dc541b22")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "U5")
@@ -6143,6 +6179,12 @@
 			(uuid "154273c2-4f34-44c3-aa35-9e7faccd0bc6")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "C5")
@@ -6209,6 +6251,12 @@
 			(uuid "d1250476-947c-4341-b7ab-545c942f56e7")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0302")
@@ -6275,6 +6323,12 @@
 			(uuid "e40ec59c-a880-443b-b395-43674021a37b")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0304")
@@ -6354,6 +6408,12 @@
 			(uuid "8e7a79bf-14d1-4821-92c3-8b5ec90d20d8")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "C7")
@@ -6420,6 +6480,12 @@
 			(uuid "3f92fb41-a700-4ccb-8a68-6dc5292ac596")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0306")
@@ -6499,6 +6565,12 @@
 			(uuid "50eb3ee0-a779-4053-809f-31e70acf4868")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "C16")
@@ -6565,6 +6637,12 @@
 			(uuid "a8a35f72-5efb-4f4d-985c-0854993eb102")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0308")
@@ -6631,6 +6709,12 @@
 			(uuid "ba4dd7d1-29fc-4b6f-b1e2-5f3d868458ff")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0314")
@@ -6708,6 +6792,12 @@
 			(uuid "34037139-10b6-47ed-8a2c-1cb7176200b7")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "R16")
@@ -6790,6 +6880,12 @@
 			(uuid "be636439-3c12-4f45-b693-7acdd3da19db")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "Q1")
@@ -6800,7 +6896,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 48.26 0)
+		(at 138.43 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6808,7 +6904,7 @@
 		(dnp no)
 		(uuid "7f918e3d-b0c9-4104-9fd8-cd838f481a6e")
 		(property "Reference" "#PWR010"
-			(at 158.75 54.61 0)
+			(at 138.43 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6817,7 +6913,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 52.324 0)
+			(at 138.43 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +6921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 48.26 0)
+			(at 138.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,7 +6930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 48.26 0)
+			(at 138.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +6939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 48.26 0)
+			(at 138.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6855,6 +6951,12 @@
 			(uuid "70a585c7-33ba-4db4-89f4-115c4475cbb2")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR010")
@@ -6932,6 +7034,12 @@
 			(uuid "e64c66e6-22dc-4399-a944-7110aecfeaf5")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "R13")
@@ -7023,6 +7131,12 @@
 			(uuid "7b2dc1ea-06a5-468e-9d9d-289f7737c7bd")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "H?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "H1")
@@ -7101,6 +7215,12 @@
 			(uuid "8d4e0713-0047-4267-b2a0-433050b6380c")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "R14")
@@ -7167,9 +7287,215 @@
 			(uuid "362d74d8-da13-4129-8b27-7bb3874c0580")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:ESP32-S3-WROOM-1U-N8R2")
+		(at 123.19 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94ed378d-aa92-48a2-9594-99108fc931b1")
+		(property "Reference" "U3"
+			(at 123.19 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-S3-WROOM-1U-N8R2"
+			(at 123.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:WIRELM-SMD_ESP32-S3-WROOM-1U"
+			(at 123.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3013944"
+			(at 123.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "847959a3-e233-4795-9822-0ca40cd4396e")
+		)
+		(pin "4"
+			(uuid "08e1bda1-195d-404a-892e-39c5e8646fc1")
+		)
+		(pin "6"
+			(uuid "082b63bf-9032-49b7-99ed-2a45304fb35b")
+		)
+		(pin "21"
+			(uuid "4bce1398-b152-4655-8173-0329b89f2bc7")
+		)
+		(pin "3"
+			(uuid "3b18af27-dd9a-4f0c-ae1c-524b12e3c3e9")
+		)
+		(pin "14"
+			(uuid "bdc58361-ed48-4cf6-a662-76b4635def32")
+		)
+		(pin "15"
+			(uuid "aa483419-b4ac-4644-9b3f-7afb96a54645")
+		)
+		(pin "8"
+			(uuid "06da70d5-aecb-42c0-8b8c-2333c08084d1")
+		)
+		(pin "11"
+			(uuid "27f431fc-898b-4862-a822-c91c08ff8919")
+		)
+		(pin "1"
+			(uuid "27b81304-da7f-4638-a396-e895f06fac69")
+		)
+		(pin "5"
+			(uuid "0cfcf9fc-140c-45fe-967f-9ddc78ad4704")
+		)
+		(pin "7"
+			(uuid "a6f15463-3a1f-4c2d-940c-5e3beaaeb378")
+		)
+		(pin "9"
+			(uuid "a3c72dda-9a08-414b-8695-9e2fa2bd94c6")
+		)
+		(pin "2"
+			(uuid "0a7ff701-dd4c-4b86-9bee-b8e8d1a92825")
+		)
+		(pin "10"
+			(uuid "57d8608e-ff0e-4731-8757-9071d8c8e36d")
+		)
+		(pin "13"
+			(uuid "45bd5b67-fa55-4e48-b91a-02c82a72d041")
+		)
+		(pin "16"
+			(uuid "83d02e29-aba1-40e5-b7c0-d89a3e22bd3e")
+		)
+		(pin "17"
+			(uuid "dbc15274-2213-464f-91ed-963e3e1640fb")
+		)
+		(pin "18"
+			(uuid "717cb845-539d-4f30-9854-764ff028b73b")
+		)
+		(pin "19"
+			(uuid "1e7f7012-2da4-426c-aa44-5a6a2ade1aa3")
+		)
+		(pin "20"
+			(uuid "047bc92c-7905-4b53-941d-c36b84762ff6")
+		)
+		(pin "36"
+			(uuid "7a2ae92f-2e6f-4fc7-b449-638f1b171d96")
+		)
+		(pin "25"
+			(uuid "84bb8022-cb0a-4859-9673-db7f7986ce5d")
+		)
+		(pin "40"
+			(uuid "0983a95f-2c7c-4c0b-9269-1d95393f95a7")
+		)
+		(pin "33"
+			(uuid "04618367-c300-4ade-9be2-87c56a791a04")
+		)
+		(pin "32"
+			(uuid "daf8e4a5-985e-43ae-9a39-87c4b52d6f33")
+		)
+		(pin "31"
+			(uuid "484d91e2-bd0b-41dd-8761-5b5a6d099c3e")
+		)
+		(pin "34"
+			(uuid "8eca569c-a6f8-4b49-a138-59d15b3d5a34")
+		)
+		(pin "38"
+			(uuid "861d806c-7e84-485e-bce4-52c5ba412b06")
+		)
+		(pin "39"
+			(uuid "0ca0cb71-1462-487b-a4f9-7477a31eb00a")
+		)
+		(pin "35"
+			(uuid "a5336db3-8771-48b9-a034-2338e85298e1")
+		)
+		(pin "29"
+			(uuid "ba64e8f6-ec7e-4d23-a0b1-c412875bc597")
+		)
+		(pin "28"
+			(uuid "919a62c1-a12c-4193-b9f7-861019944df4")
+		)
+		(pin "27"
+			(uuid "916e547e-1e32-4dd2-888d-88e4a7d4267f")
+		)
+		(pin "24"
+			(uuid "28c78eb3-50a6-4e3e-9dc8-426449297d1a")
+		)
+		(pin "41"
+			(uuid "3ae69718-34bf-462f-ab52-5c77bcae7fce")
+		)
+		(pin "30"
+			(uuid "0f6b33a9-61d1-4524-b1d3-391833d052e0")
+		)
+		(pin "23"
+			(uuid "08892576-d8ce-4f99-b89b-c2d8e0f140b1")
+		)
+		(pin "22"
+			(uuid "df8016a6-7146-43ec-b304-5c0df5de3ca1")
+		)
+		(pin "37"
+			(uuid "40c6a39d-9ebc-48fd-bed1-4dc710693601")
+		)
+		(pin "26"
+			(uuid "0273df07-bb18-40d6-b27b-f45bec0ac3cb")
+		)
+		(instances
+			(project ""
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "TempWatchtV1"
+				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7246,6 +7572,12 @@
 			(uuid "c6253ab4-df60-49fe-a8de-92c852d3de83")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "C6")
@@ -7312,6 +7644,12 @@
 			(uuid "4578ca6b-0c2e-412c-8315-2ebcec58f45b")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0312")
@@ -7390,6 +7728,12 @@
 			(uuid "84b79ea4-96a9-4ed8-a9ae-3fa380c10b1b")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "C4")
@@ -7473,6 +7817,12 @@
 			(uuid "b7a347d7-0d0a-4785-b981-1d4086196bb9")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "SW1")
@@ -7555,6 +7905,12 @@
 			(uuid "dda32b14-2e99-48cd-9d60-98a5e8c5721b")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "Q2")
@@ -7621,203 +7977,15 @@
 			(uuid "53b2d409-9598-4ee1-8652-452d55868314")
 		)
 		(instances
-			(project "TempWatchtV1"
-				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
-					(reference "#PWR0315")
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:ESP32-S3-WROOM-1(N8R2)")
-		(at 134.62 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c84ed142-02cc-4634-9c9c-3e8950fa88c5")
-		(property "Reference" "U4"
-			(at 133.35 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESP32-S3-WROOM-1(N8R2)"
-			(at 133.35 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:WIRELM-SMD_ESP32-S3-WROOM-1"
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2913204"
-			(at 134.62 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b5fc3b88-a08b-4a4c-9eb4-f93cf459a22b")
-		)
-		(pin "1"
-			(uuid "aecb4d43-5e72-4d15-b42a-f37f8836c21e")
-		)
-		(pin "8"
-			(uuid "68f3bc03-7d6f-4835-9463-88a48ad82334")
-		)
-		(pin "2"
-			(uuid "3b9d5211-5521-458e-8bec-d15a9134a008")
-		)
-		(pin "18"
-			(uuid "ed1a633b-5074-42d9-ad16-1f22c96a0537")
-		)
-		(pin "6"
-			(uuid "d26f7bcb-b285-4692-92e1-875d9e380bbf")
-		)
-		(pin "7"
-			(uuid "63a32a7e-77da-433d-b024-3749d6d27380")
-		)
-		(pin "12"
-			(uuid "da1414b4-07e9-4ab6-8f36-d8a1f7089ec7")
-		)
-		(pin "4"
-			(uuid "3cf28952-ed8d-428b-8bea-4e431b48feea")
-		)
-		(pin "10"
-			(uuid "bca95a25-9704-4a54-beeb-d9f51822d397")
-		)
-		(pin "14"
-			(uuid "20f1f47a-7491-4e46-93f3-8da8da21cbd3")
-		)
-		(pin "9"
-			(uuid "a1728f3f-b8a4-4a36-9247-ea3054a534ce")
-		)
-		(pin "5"
-			(uuid "444b6a9e-4e10-4d74-a922-d660dfc90df6")
-		)
-		(pin "11"
-			(uuid "3b55decf-17fd-4ce1-bf58-fe4a051d3555")
-		)
-		(pin "15"
-			(uuid "dc9be78a-687b-49c8-af9e-17d8cb685786")
-		)
-		(pin "16"
-			(uuid "395f5398-c952-4069-a151-b86034b65d38")
-		)
-		(pin "13"
-			(uuid "1811d007-458f-4909-9196-e8fcfd9a0247")
-		)
-		(pin "17"
-			(uuid "88bb715f-b59a-4924-af2f-279a10821cd7")
-		)
-		(pin "19"
-			(uuid "28ef3820-01db-4895-abda-9725ea5f2055")
-		)
-		(pin "22"
-			(uuid "528ccb06-bf06-4fce-a6ef-d0cb901e05f2")
-		)
-		(pin "27"
-			(uuid "c810ed65-88dd-44ac-96fd-cbbdd46c4b67")
-		)
-		(pin "24"
-			(uuid "c2404c88-e117-4e1d-9fb8-a4844c821c7e")
-		)
-		(pin "25"
-			(uuid "198df332-4ff4-40bb-ae7e-5a6917ffb37d")
-		)
-		(pin "35"
-			(uuid "e694b655-5b73-419f-9619-1e2fd1700b30")
-		)
-		(pin "34"
-			(uuid "73d12e5f-006f-43d9-8261-051251b7cc9b")
-		)
-		(pin "36"
-			(uuid "d253a367-9f1a-4119-944e-4ca384e4894d")
-		)
-		(pin "20"
-			(uuid "90645dd9-d10e-4141-bcb4-3c628b32c062")
-		)
-		(pin "39"
-			(uuid "9dd8b123-b14f-4136-b8e2-47a7dc18a2d5")
-		)
-		(pin "37"
-			(uuid "dd7aae2c-8fd8-4fdd-ab89-c997fd5fe691")
-		)
-		(pin "32"
-			(uuid "e302530c-ef34-4ad8-a1ae-62fe27c4670f")
-		)
-		(pin "28"
-			(uuid "a5d9de9c-7214-44e1-9089-ca59953a107d")
-		)
-		(pin "30"
-			(uuid "6ef8e909-f02c-44bb-98db-706278b803ec")
-		)
-		(pin "23"
-			(uuid "154a0aba-1259-4f88-8b03-3d4a27744967")
-		)
-		(pin "38"
-			(uuid "719b4cbe-31ad-467d-b696-869b47a4cbc4")
-		)
-		(pin "40"
-			(uuid "ba2af18c-ed80-4db8-bf4c-4e978cc11dc9")
-		)
-		(pin "29"
-			(uuid "e53b874b-fa9e-4eca-af94-250717ce1eef")
-		)
-		(pin "31"
-			(uuid "e8280b00-844d-4e93-819d-f1c936c9a2db")
-		)
-		(pin "26"
-			(uuid "ee5ecd3a-01d1-4840-8dd6-199bf98075c8")
-		)
-		(pin "21"
-			(uuid "039dba8b-2ea4-4c9f-9a51-6cdf9d4825cc")
-		)
-		(pin "41"
-			(uuid "fe4607ca-e742-49f9-a0ae-637d9b680bbc")
-		)
-		(pin "33"
-			(uuid "59bf918d-2eac-4225-9409-80a4de9b4c83")
-		)
-		(instances
-			(project ""
+			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
-					(reference "U4")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -7973,6 +8141,12 @@
 			(uuid "bcfb64fc-fa4e-40a7-a1e6-3c9b38335c03")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "U6")
@@ -8052,6 +8226,12 @@
 			(uuid "d2b3f2c5-6332-414e-95ef-0d1f61c803e2")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "R15")
@@ -8117,6 +8297,12 @@
 			(uuid "74652535-51d3-4da7-9064-38a937c59ba5")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0309")
@@ -8200,6 +8386,12 @@
 			(uuid "619163c4-2f72-413e-9a19-13b971962609")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "SW2")
@@ -8279,6 +8471,12 @@
 			(uuid "bd202758-fb99-46eb-97d5-b94d11d5a942")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "R12")
@@ -8345,6 +8543,12 @@
 			(uuid "22a365f6-cd64-48d0-953d-45a1593efa69")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "#PWR0313")
@@ -8422,6 +8626,12 @@
 			(uuid "5d5da65a-b99d-4321-8b86-b78bcf4567b2")
 		)
 		(instances
+			(project "esp32S3"
+				(path "/327f9a46-e8e2-49eb-bdb5-03a5ead31fff"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "TempWatchtV1"
 				(path "/4c1bfa05-abb8-4df8-8068-6e21b383df39/d9af16c6-ce5d-42f1-ae7c-f02bb25b5900"
 					(reference "R17")
@@ -8430,4 +8640,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
